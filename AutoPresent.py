@@ -10,14 +10,14 @@ all_commands = {
     "minimise window",
 }
 
-def nextSlide():
-    pag.press("right")
-def previousSlide():
-    pag.press("left")
-def minimizeWindow():
-    pag.hotkey("win", "down")
-def maximizeWindow():
-    pag.hotkey("win", "up")
+# def nextSlide():
+#     pag.press("right")
+# def previousSlide():
+#     pag.press("left")
+# def minimizeWindow():
+#     pag.hotkey("win", "down")
+# def maximizeWindow():
+#     pag.hotkey("win", "up")
 
 def is_powerpoint_in_focus():
     active_window = gw.getActiveWindow()
